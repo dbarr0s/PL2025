@@ -1,9 +1,9 @@
 # TPC7 - 
 
-## Autor:
+## Autor
 - Diogo Rafael dos Santos Barros
 - A100600
 
-## Resumo:
+## Resumo
 
-## Funcionamento:
+## Funcionamento
