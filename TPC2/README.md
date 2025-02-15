@@ -10,8 +10,6 @@ Neste TPC, foi proibido de se usar o módulo **CSV** do Python. Tem de ser poss�
 - Distribuição das obras por período: quantas **obras catalogadas em cada período**;
 - Dicionário em que a cada período está a associada uma **lista alfabética dos títulos das obras desse período.**
 
----
-
 ## Estrutura do Projeto
 ```
 ├── data/
@@ -24,7 +22,6 @@ Neste TPC, foi proibido de se usar o módulo **CSV** do Python. Tem de ser poss�
 ├── tpc2.py              # Código principal
 ├── README.md              # Documentação
 ```
----
 
 ## Funcionamento
 1. **Tratamento e Limpeza de Dados**
