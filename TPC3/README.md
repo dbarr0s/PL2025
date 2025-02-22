@@ -41,12 +41,14 @@ Linhas iniciadas com `#`, `##` ou `###` são convertidas para `<h1>`, `<h2>` e `
 Pedaços de texto entre `**` são convertidos para `<b>`.
 
 **Entrada:** `Este é um **exemplo** de bold.`
+
 **Saída:** `Este é um <b>exemplo</b> de bold.`
 
 ### 3. Itálico
 Pedaços de texto entre `*` são convertidos para `<i>`.
 
 **Entrada:** `Este é um *exemplo* de itálico.`
+
 **Saída:** `Este é um <i>exemplo</i> de itálico.`
 
 ### 4. Listas Ordenadas
@@ -58,6 +60,7 @@ Linhas numeradas são convertidas em listas ordenadas `<ol>`.
 2. Segundo item
 3. Terceiro item
 ```
+
 **Saída:**
 ```html
 <ol>
@@ -71,9 +74,12 @@ Linhas numeradas são convertidas em listas ordenadas `<ol>`.
 Links escritos no formato `[texto](URL)` são convertidos para `<a>`.
 
 **Entrada:** `Como pode ser consultado em [página da UC](http://www.uc.pt)`
+
 **Saída:** `Como pode ser consultado em <a href="http://www.uc.pt">página da UC</a>`
 
 ### 6. Imagens
 Imagens escritas no formato `![alt](URL)` são convertidas para `<img>`.
+
 **Entrada:** `Como se vê na imagem seguinte: ![imagem dum coelho](http://www.coellho.com)`
+
 **Saída:** `Como se vê na imagem seguinte: <img src="http://www.coellho.com" alt="imagem dum coelho"/>`
