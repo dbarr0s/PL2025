@@ -39,15 +39,18 @@ SELECT ?nome ?desc WHERE {
    - Identifica os **tokens** e classifica-os corretamente.
    - Exibe a lista de tokens gerados no terminal.
    - Exemplo de saída:
+   
 
-     ```
-     LexToken(COMMAND,'SELECT',1,0)
-     LexToken(VARS,'?nome',1,7)
-     LexToken(VARS,'?desc',1,13)
-     LexToken(WHERE,'WHERE',1,19)
-     LexToken(BLOCOS,'{',2,25)
-     LexToken(VARS,'?s',3,29)
-     LexToken(RDF_TYPE,'rdf:type',3,32)
-     LexToken(PREFIX,'dbo:MusicalArtist',3,36)
-     ...
-     ```
+   ```
+    LexToken(COMMENT,'# DBPedia: obras de Chuck Berry',2,1)
+    LexToken(COMMAND,'select',4,34)
+    LexToken(VARS,'?nome',4,41)
+    LexToken(VARS,'?desc',4,47)
+    LexToken(WHERE,'where',4,53)
+    LexToken(BLOCOS,'{',4,59)
+    LexToken(VARS,'?s',5,65)
+    LexToken(RDF_TYPE,'a',5,68)
+    LexToken(PREFIX,'dbo:MusicalArtist',5,70)
+    LexToken(SEPARADORES,'.',5,87)
+   ...
+   ```
