@@ -47,10 +47,11 @@ SELECT ?nome ?desc WHERE {
     LexToken(VARS,'?nome',4,41)
     LexToken(VARS,'?desc',4,47)
     LexToken(WHERE,'where',4,53)
-    LexToken(BLOCOS,'{',4,59)
+    LexToken({,'{',4,59)
     LexToken(VARS,'?s',5,65)
     LexToken(RDF_TYPE,'a',5,68)
     LexToken(PREFIX,'dbo:MusicalArtist',5,70)
-    LexToken(SEPARADORES,'.',5,87)
+    LexToken(.,'.',5,87)
+    LexToken(VARS,'?s',6,93)
    ...
    ```
