@@ -16,7 +16,6 @@ t_COMMAND = r'[Ss][Ee][Ll][Ee][Cc][Tt]'
 t_WHERE = r'[Ww][Hh][Ee][Rr][Ee]'
 t_VARS = r'\?\w*'
 t_LIMIT = r"[Ll][Ii][Mm][Ii][Tt]"
-t_COMMENT = r"\#.*"
 t_PREFIX = r"\w+:\w+"
 t_STRING = r'"([^"]+)"@[a-zA-Z]+'
 t_RDF_TYPE = r'\ba\b'
@@ -29,6 +28,10 @@ def t_VALORES(t):
     r'-?\d+'
     t.value = int(t.value)
     return t
+
+def t_COMMENT(t):
+    r'\#.*'
+    pass
 
 def t_newline(t):
     r'\n+'
