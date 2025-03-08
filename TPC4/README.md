@@ -42,7 +42,6 @@ SELECT ?nome ?desc WHERE {
    
 
    ```
-    LexToken(COMMENT,'# DBPedia: obras de Chuck Berry',2,1)
     LexToken(COMMAND,'select',4,34)
     LexToken(VARS,'?nome',4,41)
     LexToken(VARS,'?desc',4,47)
