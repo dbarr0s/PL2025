@@ -17,7 +17,7 @@ O programa utiliza **análise léxica** com **PLY (Python Lex-Yacc)** para inter
 
 ## Estrutura do Projeto  
 ```
-├── maq_vending.py             # Código principal
+├── maq_vending.py         # Código principal
 ├── stock.json             # Ficheiro com os produtos disponíveis
 ├── README.md              # Documentação
 ```
