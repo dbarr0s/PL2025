@@ -1,0 +1,50 @@
+[
+    {
+        "cod": "A10",
+        "nome": "agua",
+        "quant": 7,
+        "preco": 0.7
+    },
+    {
+        "cod": "B45",
+        "nome": "bolachas",
+        "quant": 7,
+        "preco": 1.0
+    },
+    {
+        "cod": "C67",
+        "nome": "lanche",
+        "quant": 4,
+        "preco": 1.2
+    },
+    {
+        "cod": "D89",
+        "nome": "batatas",
+        "quant": 6,
+        "preco": 2.0
+    },
+    {
+        "cod": "E12",
+        "nome": "chocolate",
+        "quant": 6,
+        "preco": 3.0
+    },
+    {
+        "cod": "F34",
+        "nome": "sumo",
+        "quant": 5,
+        "preco": 3.0
+    },
+    {
+        "cod": "G56",
+        "nome": "doces",
+        "quant": 4,
+        "preco": 2.0
+    },
+    {
+        "cod": "H45",
+        "nome": "bolo",
+        "quant": 5,
+        "preco": 2.0
+    }
+]
